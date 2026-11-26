@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#174e36">
+  <meta name="description" content="Consulte a disponibilidade e reserve os laboratórios do IFCE Campus Boa Viagem. Demonstração com perfis de professor e coordenador.">
+  <title>ReservaLab · IFCE Boa Viagem</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./start.mjs"></script>
+</head>
+<body>
+  <a href="#main" class="skip-link">Ir para o conteúdo</a>
+  <div id="app"><main id="main" class="initial-state" aria-busy="true">
+    <img class="brand-mark" src="./favicon.svg" width="42" height="42" alt="">
+    <p role="status">Carregando o ReservaLab…</p>
+  </main></div>
+  <dialog id="modal" aria-labelledby="modal-title"></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <noscript>Ative o JavaScript para consultar a agenda dos laboratórios.</noscript>
+</body>
+</html>

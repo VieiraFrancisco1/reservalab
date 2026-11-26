@@ -1,0 +1,14 @@
+{
+  "name": "reservalab-ifce-boa-viagem",
+  "version": "2.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "check": "node --check dist/start.mjs && node --check dist/app.mjs && node --check dist/domain.mjs && node --check dist/store.mjs && node --check dist/demo-profiles.mjs && node --check dist/profile-rules.mjs && node --check dist/profile.mjs && node --check dist/institutional.mjs && node --check dist/ui.mjs && node --check api/profile.mjs && node --check server/profile-api.mjs"
+  },
+  "dependencies": {
+    "@vercel/blob": "2.9.0",
+    "jpeg-js": "0.4.4"
+  }
+}
